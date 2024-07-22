@@ -10,7 +10,7 @@ class RegistrationState(StatesGroup):
     age = State()
     town = State()
 
-Bot = Bot('7488729928:AAEkECh84tM39TAklTS1hC_N7ZJap-WauFk')
+Bot = Bot('')
 storage = MemoryStorage()
 dp = Dispatcher(bot=Bot,storage=storage)    
 
